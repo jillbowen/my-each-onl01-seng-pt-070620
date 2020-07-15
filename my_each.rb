@@ -5,5 +5,5 @@ def my_each(words) # put argument(s) here
         yield[i]
         i = i + 1
       end
-  else 
+  else puts "No block was given!"
 end
